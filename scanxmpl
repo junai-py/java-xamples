@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class scanxmpl {
+    public static void main(String[] args){
+        int i;
+        System.out.println("ENTER THE NUMBER : ");
+        Scanner scan = new Scanner(System.in);
+        i= scan.nextInt();
+
+        if(i%2==0){
+            System.out.println("this is even");
+        }
+        else{
+            System.out.print("This is odd");
+        }
+
+    }
+}
+
